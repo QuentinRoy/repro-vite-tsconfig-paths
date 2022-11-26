@@ -2,6 +2,7 @@
   "extends": "../tsconfig.json",
   "include": ["src", "vite.config.ts"],
   "compilerOptions": {
+    "module": "NodeNext",
     "esModuleInterop": true,
     "allowJs": true,
     "checkJs": true,
